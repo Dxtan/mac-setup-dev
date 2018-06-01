@@ -22,7 +22,19 @@
 ## Chrome
 
 1. 下载[Chrome](https://www.google.com/chrome/),我们直接安装完成，然后去掉Dock里面的Safari浏览器。
+### Chrome Web App
 
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
+- [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
+- [Black Menu for Google](https://chrome.google.com/webstore/detail/black-menu-for-google/eignhdfgaldabilaaegmdfbajngjmoke)
+- [Chrome Clear Cache](https://chrome.google.com/webstore/detail/chrome-clear-cache/joepceghemjogpagigkfiflkfahbbeja)
+- [Clockwork](https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp)
+- [JSON Viewer Awesome](https://chrome.google.com/webstore/detail/json-viewer-awesome/iemadiahhbebdklepanmkjenfdebfpfe)
+- [Material Design New Tab](https://chrome.google.com/webstore/detail/material-design-new-tab/kgfodmcknjlgkbgkkafogbdaibkfgdgo)
+- [PHPView](https://chrome.google.com/webstore/detail/phpview/nlkobfbkblfhlcobdomlhmpbbhmcbkfd)
+- [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad)
+- 
 
 ## Apps Download
 
@@ -31,6 +43,7 @@
  - [Alfred](https://www.alfredapp.com/)
  - [Contexts](https://contexts.co/)
  - [Sublime text 3](https://www.sublimetext.com/)
+ - [Dash](https://kapeli.com/dash)
 
 
 ## Dropbox
@@ -109,18 +122,27 @@
 
 ## Other Apps
 
-1. 安装开发常用的App
+1. 开发常用的App
 
    - [Sequel pro](https://www.sequelpro.com/) 简单的Mysql管理工具。
-
    - [Path Finder](https://cocoatech.com/#/)在Finder工具栏下面显示面包屑，可以快速打开上层文件夹。
-
    - [Transmit](https://panic.com/transmit/)最好用的FTP工具。
-
    - [Tower](https://www.git-tower.com/mac/)我最喜欢的用的，它是一个可视化版本控制管理工具，在国外非常受欢迎。
-
    - [Telegram](https://telegram.org/)团队协作聊天工具。
-
    - [Textual](https://www.codeux.com/textual/)它是国外比较受欢迎的简单的
 
-     
+2. 提高工作效率App
+
+   - [CleanMyMac 3](https://macpaw.com/cleanmymac)
+
+   - [Alternote](http://alternoteapp.com/)
+   - [Bee](https://www.neat.io/bee/)
+   - [Noizio](http://noiz.io/)
+   - [Pixelmator Pro](http://www.pixelmator.com/pro/)
+   - [Quip](https://quip.com/)
+   - [Trello](https://trello.com/)
+   - [Typora](https://typora.io/)
+   - [VEEER](https://veeer.io/)
+   - [Download Shuttle](https://fiplab.com/apps/download-shuttle-for-mac)
+   - [MindNode](https://mindnode.com/)
+   - [Wunderlist](https://www.wunderlist.com)
