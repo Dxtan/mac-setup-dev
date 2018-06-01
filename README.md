@@ -22,7 +22,7 @@
 ## Chrome
 
 1. 下载[Chrome](https://www.google.com/chrome/),我们直接安装完成，然后去掉Dock里面的Safari浏览器。
-### Chrome Web App
+#### Chrome Web App
 
 - [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
@@ -34,7 +34,6 @@
 - [PHPView](https://chrome.google.com/webstore/detail/phpview/nlkobfbkblfhlcobdomlhmpbbhmcbkfd)
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 - [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad)
-- 
 
 ## Apps Download
 
@@ -43,8 +42,11 @@
  - [Alfred](https://www.alfredapp.com/)
  - [Contexts](https://contexts.co/)
  - [Sublime text 3](https://www.sublimetext.com/)
+ - [PhpStorm](https://www.jetbrains.com/phpstorm/)
  - [Dash](https://kapeli.com/dash)
-
+ - [Iterm2](https://www.iterm2.com/)
+ - [Vagrant](https://www.vagrantup.com/) 
+ - [VirtualBox](https://www.virtualbox.org/)
 
 ## Dropbox
 
@@ -70,13 +72,17 @@
 
      `$ subl .`
 
-     
-
 2. 安装[Source code pro](https://github.com/adobe-fonts/source-code-pro/tags )字体,下载后打开安装包内的OTF文件夹，全选里面的字体，安装。
+
+## PhpStorm
+
+下载安装最新版的[PhpStorm](https://www.jetbrains.com/phpstorm/)，安装完成。
+
+> 我个人喜欢使用[PhpStorm 2016.2](http://download.jetbrains.com/webide/PhpStorm-2016.2.2.dmg), 因为这个版本之后，输入的光标高度不是满行，用起来很不舒服。
 
 ## iTerm2
 
-1. 下载安装[Iterm2](https://www.iterm2.com/),，安装完成后打开:
+1. 下载安装[Iterm2](https://www.iterm2.com/)，安装完成后打开:
 
   - 安装xcode扩展,输入
 
@@ -129,7 +135,7 @@
    - [Transmit](https://panic.com/transmit/)最好用的FTP工具。
    - [Tower](https://www.git-tower.com/mac/)我最喜欢的用的，它是一个可视化版本控制管理工具，在国外非常受欢迎。
    - [Telegram](https://telegram.org/)团队协作聊天工具。
-   - [Textual](https://www.codeux.com/textual/)它是国外比较受欢迎的简单的
+   - [Textual](https://www.codeux.com/textual/)它是国外比较受欢迎的简单的文字聊天室。
 
 2. 提高工作效率App
 
