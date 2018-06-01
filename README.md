@@ -43,17 +43,18 @@
 
   - 安装xcode扩展,输入
 
-  `$ xcode-select —install `
+    `$ xcode-select —install `
 
   - 继续安装[Homebrew](https://brew.sh)
 
-  `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
   - 使用[oh-my-zsh](http://ohmyz.sh/)
 
-  `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+    `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
   - 设置常用的快捷键, 打开iterm2设置>profiles>keys ，点击加号进行添加:
+
     - cmd+右 /send Hex Code /0x05 `使用cmd+右 跳转到一行命令的最右边`
     - cmd+ 左 /send Hex Code /0x01 `使用cmd+左 跳转到一行命令的最左边`
     - option+右 /send Escape Sequence /Esc+f  `使用option+右 跳转到的前一个命令词语的最右边`
@@ -85,4 +86,3 @@
     - `$ brew install wget php71 mysql sqlite composer php71-redis` 
     - `$ composer global require laravel/valet`
     - `$ valet install`
-    - 
