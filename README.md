@@ -19,6 +19,7 @@
    - 键盘>键盘, 把【按键重复】拖到最右边，调整到最快。
    - 键盘>键盘, 把【重复前延迟】拖到最右边，调整到最快。
    - 键盘>快捷键,选中左边的输入法，然后修改【选择上一个输入法】的快捷键为`cmd+空格`
+   - 辅助功能>鼠标与触控板>触控板选项>启用拖移
 ## Chrome
 
 1. 下载[Chrome](https://www.google.com/chrome/),我们直接安装完成，然后去掉Dock里面的Safari浏览器。
@@ -80,6 +81,10 @@
 
 > 我个人喜欢使用[PhpStorm 2016.2](http://download.jetbrains.com/webide/PhpStorm-2016.2.2.dmg), 因为这个版本之后，输入的光标高度不是满行，用起来很不舒服。
 
+PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，必须学会怎么设置它，关于PhpStorm
+
+的设置我单独用一篇[文档](./phpstorm-settings)来具体说明。
+
 ## iTerm2
 
 1. 下载安装[Iterm2](https://www.iterm2.com/)，安装完成后打开:
@@ -104,6 +109,39 @@
     - option + 左 /Excape Sequence /Esc + b `使用option+左 跳转到的后一个命令词语的最左边`
     - cmd+delete /send Hex code /0x15 `强制清除当前行输入的明亮`
 
+## Vim
+
+下载项目里面的`.vimrc`，放在用户根目录:
+
+```bash
+syntax enable //语法高亮显示
+colorscheme desert //命令行显示不同的文件类型会有不同的颜色
+
+"-------------General Settings--------------"
+set backspace=indent,eol,start           "Make backspace behave like every other editor.
+let mapleader = ',' 		       "The default leader is \, but a comma is much better.
+set number					"Let's activate line numbers.
+set linespace=15   		     "Macvim-specific line-height.
+
+
+"-------------Search--------------"
+set hlsearch
+set incsearch
+
+
+"-------------Mappings--------------"
+"Add simple highlight removal.
+nmap <Leader><space> :nohlsearch<cr>
+
+"-------------Auto-Commands--------------"
+
+"Automatically source the Vimrc file on save.
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost .vimrc source %
+augroup END
+```
+
 ## Vagrant
 
 1. 下载安装[Vagrant](https://www.vagrantup.com/) 和[VirtualBox](https://www.virtualbox.org/)，可以搭建本地虚拟开发环境
@@ -116,15 +154,45 @@
    -  `$ which git`,默认的git执行文件在`/usr/bin/git`。
    -  所以我们使用brew安装最新版的`$ brew install git`。
    -  安装完成后，再次查看版本`$ git --version`，会发现还是之前的版本.
-   -  所以我们移动默认的git文件,`$ mv /usr/bin/git /usr/bin/git-apple`, 这样就会执行brew安装后的git了。
+   -  所以我们移动默认的git文件,`$ mv /usr/bin/git /usr/bin/git-apple`, 这样就会执行brew安装后的git了。如果提示没有权限，重启系统就好了。
+
+2. Git的基本设置:
+
+   `$ git config --global user.name="xxx"`设置Git用户名
+
+   `$ git config --global user.email="xxx@mail.com"`设置Git邮箱
+
+   `$ git config --list` 查看所有的配置
+
+   `$ ssh-keygen`生成ssh key用户Git仓库SSH权限。
 
 ## Dev  environment
 
-1. 安装PHP开发环境:
-   - `$ brew update`
-   - `$ brew install wget php71 mysql sqlite composer php71-redis` 
-   - `$ composer global require laravel/valet`
-   - `$ valet install`
+#### 安装PHP开发环境:
+
+- `$ brew update`
+- `$ brew install wget php71 mysql nginx sqlite composer php71-redis` `
+
+ > 这样安装以后可能会安装php扩展比较麻烦，因为很早的homebrew-php被合并到homebrew-core里面了，扩展安装必须通过pecl安装，然后修改php.ini打开扩展，php手册里面也有[说明](http://php.net/manual/zh/mongodb.installation.homebrew.php)。
+ > 所以我保留了早期的homebrew-php工程，只要放在`/usr/local/Homebrew/Library/Taps/homebrew` 目录下面，一样可以安装php7.1,7.2,扩展也可以通过brew安装.
+
+#### Composer
+
+composer对PHP开发来说还是非常重要的，在[https://packagist.org/](https://packagist.org/)提供了很多的依赖包。
+
+当然，国内需要设置一下镜像源：
+
+`$ composer config -g repo.packagist composer https://packagist.phpcomposer.com`
+
+通常我喜欢用[Laravel/valet](https://laravel.com/docs/5.6/valet)快速搭建web环境。
+
+`$ copmoser global require laravel/valet && valet install`
+
+还有laravel安装程序：
+
+`composer global require laravel/installer`
+
+
 
 ## Other Apps
 
