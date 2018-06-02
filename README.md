@@ -45,7 +45,7 @@
  - [Sublime text 3](https://www.sublimetext.com/)
  - [PhpStorm](https://www.jetbrains.com/phpstorm/)
  - [Dash](https://kapeli.com/dash)
- - [Iterm2](https://www.iterm2.com/)
+ - [iTerm2](https://www.iterm2.com/)
  - [Vagrant](https://www.vagrantup.com/) 
  - [VirtualBox](https://www.virtualbox.org/)
 
