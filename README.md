@@ -83,7 +83,7 @@
 
 PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，必须学会怎么设置它，关于PhpStorm
 
-的设置我单独用一篇[文档](./phpstorm-settings)来具体说明。
+的设置我单独用一篇[文档](./phpstorm-settings.md)来具体说明。
 
 ## iTerm2
 
@@ -174,7 +174,7 @@ augroup END
 - `$ brew install wget php71 mysql nginx sqlite composer php71-redis` `
 
  > 这样安装以后可能会安装php扩展比较麻烦，因为很早的homebrew-php被合并到homebrew-core里面了，扩展安装必须通过pecl安装，然后修改php.ini打开扩展，php手册里面也有[说明](http://php.net/manual/zh/mongodb.installation.homebrew.php)。
- > 所以我保留了早期的homebrew-php工程，只要放在`/usr/local/Homebrew/Library/Taps/homebrew` 目录下面，一样可以安装php7.1,7.2,扩展也可以通过brew安装.
+ > 所以我保留了早期的[homebrew-php](https://github.com/Dxtan/homebrew-php/import)工程，只要放在`/usr/local/Homebrew/Library/Taps/homebrew` 目录下面，一样可以安装php7.1,7.2,扩展也可以通过brew安装.
 
 #### Composer
 
