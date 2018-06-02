@@ -109,9 +109,15 @@ PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，
     - option + 左 /Excape Sequence /Esc + b `使用option+左 跳转到的后一个命令词语的最左边`
     - cmd+delete /send Hex code /0x15 `强制清除当前行输入的明亮`
 
+- iTerm2可以自定义设置界面的，推荐我个人自定义的界面，喜欢的可以下载项目里面[com.googlecode.iterm2.plist](https://github.com/Dxtan/mac-setup-dev/blob/master/com.googlecode.iterm2.plist)后导入就可以了。
+
+  ![](http://7xtqiw.com1.z0.glb.clouddn.com/nlqeuq9wnl12312u31nlrus7fn4l2j3e.png)
+
+  ![](http://7xtqiw.com1.z0.glb.clouddn.com/an2k3br2o23kbk234k2h4b823b2k.png)
+
 ## Vim
 
-下载项目里面的`.vimrc`，放在用户根目录:
+下载项目里面的[.vimrc](https://github.com/Dxtan/mac-setup-dev/blob/master/.vimrc)，放在用户根目录:
 
 ```bash
 syntax enable //语法高亮显示
