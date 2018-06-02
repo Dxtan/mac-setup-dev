@@ -208,7 +208,6 @@ composer对PHP开发来说还是非常重要的，在[https://packagist.org/](ht
 2. 提高工作效率App
 
    - [CleanMyMac 3](https://macpaw.com/cleanmymac)
-
    - [Alternote](http://alternoteapp.com/)
    - [Bee](https://www.neat.io/bee/)
    - [Noizio](http://noiz.io/)
@@ -220,3 +219,4 @@ composer对PHP开发来说还是非常重要的，在[https://packagist.org/](ht
    - [Download Shuttle](https://fiplab.com/apps/download-shuttle-for-mac)
    - [MindNode](https://mindnode.com/)
    - [Wunderlist](https://www.wunderlist.com)
+   - [Droplr](https://droplr.com/)
