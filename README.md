@@ -111,9 +111,9 @@ PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，
 
 - iTerm2可以自定义设置界面的，推荐我个人自定义的界面，喜欢的可以下载项目里面[com.googlecode.iterm2.plist](https://github.com/Dxtan/mac-setup-dev/blob/master/com.googlecode.iterm2.plist)后导入就可以了。
 
-  ![](http://7xtqiw.com1.z0.glb.clouddn.com/nlqeuq9wnl12312u31nlrus7fn4l2j3e.png)
+  ![](http://7xtqiw.com1.z0.glb.clouddn.com/nlqeuq9wnl12312u31nlrus7fn4l2j3e.png?imageView2/2/w/1000/h/600)
 
-  ![](http://7xtqiw.com1.z0.glb.clouddn.com/an2k3br2o23kbk234k2h4b823b2k.png)
+  ![](http://7xtqiw.com1.z0.glb.clouddn.com/an2k3br2o23kbk234k2h4b823b2k.png?imageView2/2/w/1000/h/600)
 
 ## Vim
 
@@ -171,6 +171,14 @@ augroup END
    `$ git config --list` 查看所有的配置
 
    `$ ssh-keygen`生成ssh key用户Git仓库SSH权限。
+
+3. 如果你喜欢命令行操作Git的话，有一个快捷键方式查看日志非常不错。
+
+   `alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
+   在`~/.zshrc`最后一行添加这个，会让Git日志变得更美观:
+
+   ![](http://7xtqiw.com1.z0.glb.clouddn.com/ubwefrhqoeh1134123u1k3j1k.png?imageView2/2/w/1000/h/600)
 
 ## Dev  environment
 
