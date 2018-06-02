@@ -36336,9 +36336,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1017 392 445 434 0 0 1920 1178 </string>
+	<string>1017 393 445 300 0 0 1920 1178 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>531 539 796 473 0 0 1920 1178 </string>
+	<string>530 605 796 473 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1275 1178 0 0 1920 1178 </string>
 	<key>New Bookmarks</key>
@@ -36974,7 +36974,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SourceCodePro-Semibold 16</string>
+			<string>Monaco 16</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Open Toolbelt</key>
