@@ -164,9 +164,9 @@ augroup END
 
 2. Git的基本设置:
 
-   `$ git config --global user.name="xxx"`设置Git用户名
+   `$ git config --global user.name "xxx"`设置Git用户名
 
-   `$ git config --global user.email="xxx@mail.com"`设置Git邮箱
+   `$ git config --global user.email "xxx@mail.com"`设置Git邮箱
 
    `$ git config --list` 查看所有的配置
 
