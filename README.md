@@ -87,7 +87,7 @@ PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，
 
 ## iTerm2
 
-1. 下载安装[Iterm2](https://www.iterm2.com/)，安装完成后打开:
+1. 下载安装[iTerm2](https://www.iterm2.com/)，安装完成后打开:
 
   - 安装xcode扩展,输入
 
@@ -108,6 +108,10 @@ PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，
     - option+右 /send Escape Sequence /Esc+f  `使用option+右 跳转到的前一个命令词语的最右边`
     - option + 左 /Excape Sequence /Esc + b `使用option+左 跳转到的后一个命令词语的最左边`
     - cmd+delete /send Hex code /0x15 `强制清除当前行输入的明亮`
+
+- iTerm2 全屏后无法保持透明的问题,设置preference>general> 不勾选 "Native full screen windows",  然后修改背景色透明度`Profiles>Window>Transarency`
+
+- 在任意终端中输入`open .`即可默认打开 Finder 显示当前的目录
 
 - iTerm2可以自定义设置界面的，推荐我个人自定义的界面，喜欢的可以下载项目里面[com.googlecode.iterm2.plist](https://github.com/Dxtan/mac-setup-dev/blob/master/com.googlecode.iterm2.plist)后导入就可以了。
 
@@ -234,3 +238,9 @@ composer对PHP开发来说还是非常重要的，在[https://packagist.org/](ht
    - [MindNode](https://mindnode.com/)
    - [Wunderlist](https://www.wunderlist.com)
    - [Droplr](https://droplr.com/)
+
+
+
+
+
+> 文档版权所有，未经许可不得转载流传，谢谢合作
