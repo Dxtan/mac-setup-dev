@@ -27,11 +27,6 @@
 
 - [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
-- [Black Menu for Google](https://chrome.google.com/webstore/detail/black-menu-for-google/eignhdfgaldabilaaegmdfbajngjmoke)
-- [Chrome Clear Cache](https://chrome.google.com/webstore/detail/chrome-clear-cache/joepceghemjogpagigkfiflkfahbbeja)
-- [Clockwork](https://chrome.google.com/webstore/detail/clockwork/dmggabnehkmmfmdffgajcflpdjlnoemp)
-- [JSON Viewer Awesome](https://chrome.google.com/webstore/detail/json-viewer-awesome/iemadiahhbebdklepanmkjenfdebfpfe)
-- [Material Design New Tab](https://chrome.google.com/webstore/detail/material-design-new-tab/kgfodmcknjlgkbgkkafogbdaibkfgdgo)
 - [PHPView](https://chrome.google.com/webstore/detail/phpview/nlkobfbkblfhlcobdomlhmpbbhmcbkfd)
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 - [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad)
@@ -41,7 +36,6 @@
  - [Dropbox](https://www.dropbox.com)
  - [1Password](https://1password.com/)
  - [Alfred](https://www.alfredapp.com/)
- - [Contexts](https://contexts.co/)
  - [Sublime text 3](https://www.sublimetext.com/)
  - [PhpStorm](https://www.jetbrains.com/phpstorm/)
  - [Dash](https://kapeli.com/dash)
@@ -57,10 +51,6 @@
 
 1. 安装Alfred,完成后打开 设置>键盘>快捷键>聚焦，去掉勾选 "显示聚焦搜索"和“显示Finder搜索窗口”，Alfred 打开快捷键设置为Option+空格。
 
-## Contexts
-
-1. 安装Contexts,打开设置>安全与隐私>辅助功能>勾选Contexts 。
-
 ## Sublime Text
 
 1. 安装sublime，安装包管理[PackageControl](https://packagecontrol.io/installation). 然后安装喜欢的主题[Material Theme](https://github.com/equinusocio/material-theme)。
@@ -74,6 +64,8 @@
      `$ subl .`
 
 2. 安装[Source code pro](https://github.com/adobe-fonts/source-code-pro/tags )字体,下载后打开安装包内的OTF文件夹，全选里面的字体，安装。
+
+3. 我的Sublime个人偏好设置在[sublime-user-profile](https://github.com/Dxtan/sublime-user-profile)
 
 ## PhpStorm
 
@@ -115,9 +107,6 @@ PhpStorm是一个非常强大的编译器，当然如果你想使用的顺畅，
 
 - iTerm2可以自定义设置界面的，推荐我个人自定义的界面，喜欢的可以下载项目里面[com.googlecode.iterm2.plist](https://github.com/Dxtan/mac-setup-dev/blob/master/com.googlecode.iterm2.plist)后导入就可以了。
 
-  ![](http://7xtqiw.com1.z0.glb.clouddn.com/nlqeuq9wnl12312u31nlrus7fn4l2j3e.png?imageView2/2/w/1000/h/600)
-
-  ![](http://7xtqiw.com1.z0.glb.clouddn.com/an2k3br2o23kbk234k2h4b823b2k.png?imageView2/2/w/1000/h/600)
 
 ## Vim
 
@@ -180,16 +169,16 @@ augroup END
 
    `alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 
-   在`~/.zshrc`最后一行添加这个，会让Git日志变得更美观:
+   在`~/.zshrc`最后一行添加这个，会让Git日志变得更美观.
 
-   ![](http://7xtqiw.com1.z0.glb.clouddn.com/ubwefrhqoeh1134123u1k3j1k.png?imageView2/2/w/1000/h/600)
 
 ## Dev  environment
 
-#### 安装PHP开发环境:
+#### Install PHP
 
 - `$ brew update`
-- `$ brew install wget php71 mysql nginx sqlite composer php71-redis` 
+- `$ brew install wget php@7.3 mysql nginx sqlite composer php-cs-fixer` 
+- `$ pecl install xdebug`
 
  > 这样安装以后可能会安装php扩展比较麻烦，因为很早的homebrew-php被合并到homebrew-core里面了，扩展安装必须通过pecl安装，然后修改php.ini打开扩展，php手册里面也有[说明](http://php.net/manual/zh/mongodb.installation.homebrew.php)。
  > 所以我保留了早期的[homebrew-php](https://github.com/Dxtan/homebrew-php/import)工程，只要放在`/usr/local/Homebrew/Library/Taps/homebrew` 目录下面，一样可以安装php7.1,7.2,扩展也可以通过brew安装.
@@ -217,26 +206,20 @@ composer对PHP开发来说还是非常重要的，在[https://packagist.org/](ht
 1. 开发常用的App
 
    - [Sequel pro](https://www.sequelpro.com/) 简单的Mysql管理工具。
-   - [Path Finder](https://cocoatech.com/#/)在Finder工具栏下面显示面包屑，可以快速打开上层文件夹。
    - [Transmit](https://panic.com/transmit/)最好用的FTP工具。
    - [Tower](https://www.git-tower.com/mac/)我最喜欢的用的，它是一个可视化版本控制管理工具，在国外非常受欢迎。
+   - [Github Desktop](https://desktop.github.com)github开源可视化版本控制管理工具，界面简洁。
    - [Telegram](https://telegram.org/)团队协作聊天工具。
-   - [Textual](https://www.codeux.com/textual/)它是国外比较受欢迎的简单的文字聊天室。
-
+   
 2. 提高工作效率App
 
    - [CleanMyMac 3](https://macpaw.com/cleanmymac)
    - [Alternote](http://alternoteapp.com/)
    - [Bee](https://www.neat.io/bee/)
    - [Noizio](http://noiz.io/)
-   - [Pixelmator Pro](http://www.pixelmator.com/pro/)
-   - [Quip](https://quip.com/)
    - [Trello](https://trello.com/)
    - [Typora](https://typora.io/)
    - [VEEER](https://veeer.io/)
-   - [Download Shuttle](https://fiplab.com/apps/download-shuttle-for-mac)
-   - [MindNode](https://mindnode.com/)
-   - [Wunderlist](https://www.wunderlist.com)
    - [Droplr](https://droplr.com/)
 
 
