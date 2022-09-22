@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Xcode Partial (Dark)",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "diffEditor.codeLens": true,
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**.class": true,
+        "**/build": true,
+        "**/target": true
+    },
+    "breadcrumbs.enabled": false
+}
