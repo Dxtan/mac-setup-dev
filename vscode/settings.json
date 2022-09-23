@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Xcode Partial (Dark)",
+    "workbench.colorTheme": "Xcode Default (Dark)",
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
@@ -12,5 +12,7 @@
         "**/build": true,
         "**/target": true
     },
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "vs-nomo-dark",
+    "editor.lineHeight": 32
 }
