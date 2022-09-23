@@ -22,8 +22,8 @@
     },
     {
         "key": "alt+enter",
-        "command": "settings.action.showContextMenu",
-        "when": "inSettingsEditor"
+        "command": "editor.action.showContextMenu",
+        "when": "textInputFocus"
     },
     {
         "key": "cmd+[",
