@@ -14,5 +14,8 @@
     },
     "breadcrumbs.enabled": false,
     "workbench.iconTheme": "vs-nomo-dark",
-    "editor.lineHeight": 32
+    "editor.lineHeight": 32,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
 }
