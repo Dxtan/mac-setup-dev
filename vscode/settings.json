@@ -1,21 +1,27 @@
 {
-    "workbench.colorTheme": "Xcode Default (Dark)",
+    "editor.fontFamily": "JetBrains Maple Mono",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 20,
+    "editor.lineHeight": 1.8,
+    "editor.minimap.showSlider": "always",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
-    "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
-    "diffEditor.codeLens": true,
-    "editor.fontSize": 14,
     "files.exclude": {
         "**.class": true,
         "**/build": true,
         "**/target": true
     },
     "breadcrumbs.enabled": false,
-    "workbench.iconTheme": "vs-nomo-dark",
-    "editor.lineHeight": 32,
+    "chat.viewSessions.orientation": "stacked",
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     }
 }
